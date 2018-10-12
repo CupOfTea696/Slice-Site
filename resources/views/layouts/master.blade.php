@@ -20,8 +20,12 @@
             padding-top: 64px;
             min-height: 100vh;
         }
-        .card pre {
+        .card {
+            overflow: hidden;
+        }
+        .card pre[class*="language-"] {
             margin: 0;
+            border-radius: 0;
         }
     </style>
 </head>
