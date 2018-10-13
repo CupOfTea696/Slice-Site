@@ -1,21 +1,60 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "99677f2e68d9141dc75b320c57bdbf88",
+    "content-hash": "ea28855320d5bc62a1fd623e505c7299",
     "packages": [
+        {
+            "name": "cupoftea/package",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CupOfTea696/Package.git",
+                "reference": "8c8580e6c9a7d5940809955c5527749ed24f499e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CupOfTea696/Package/zipball/8c8580e6c9a7d5940809955c5527749ed24f499e",
+                "reference": "8c8580e6c9a7d5940809955c5527749ed24f499e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CupOfTea\\Package\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "CupOfTea696",
+                    "email": "cupoftea696@gmail.com"
+                }
+            ],
+            "description": "Package base for CoT Packages.",
+            "time": "2016-11-14T11:23:30+00:00"
+        },
         {
             "name": "cupoftea/slice-core",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CupOfTea696/Slice-Core.git",
+                "reference": "ac9d3914444dd40be5e829bb11cb7029a38255da"
+            },
             "dist": {
-                "type": "path",
-                "url": "../Slice-Core",
-                "reference": "9b75850ad06842eb47e8549704c70933f1823b17",
-                "shasum": null
+                "type": "zip",
+                "url": "https://api.github.com/repos/CupOfTea696/Slice-Core/zipball/ac9d3914444dd40be5e829bb11cb7029a38255da",
+                "reference": "ac9d3914444dd40be5e829bb11cb7029a38255da",
+                "shasum": ""
             },
             "require": {
+                "cupoftea/package": "^1.3",
                 "illuminate/config": "^5.7",
                 "illuminate/cookie": "^5.7",
                 "illuminate/routing": "^5.7",
@@ -31,6 +70,7 @@
                     "src/helpers.php"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -40,7 +80,16 @@
                     "email": "frankie@cupoftea.io"
                 }
             ],
-            "description": "Slice Core"
+            "description": "Core package of cupoftea/slice",
+            "keywords": [
+                "blade",
+                "illuminate",
+                "laravel",
+                "router",
+                "standalone",
+                "templating"
+            ],
+            "time": "2018-10-12T13:50:31+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -1647,7 +1696,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "cupoftea/slice-core": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
