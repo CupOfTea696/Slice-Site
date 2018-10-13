@@ -24,7 +24,7 @@
         <section class="mb-4">
             <h2 class="h1">Usage</h2>
             <p class="lead">
-                Using Slice is a super. Just define your routes in <code>routes/web.php</code> or <code>routes/api.php</code>, and start creating your views in <code>resources/views</code>. Slice will take care of the rest.
+                Using Slice is a super simple. Just define your routes in <code>routes/web.php</code> or <code>routes/api.php</code>, and start creating your views in <code>resources/views</code>. Slice will take care of the rest.
             </p>
             
             <div class="card mb-4">
