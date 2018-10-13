@@ -45,18 +45,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CupOfTea696/Slice-Core.git",
-                "reference": "ac9d3914444dd40be5e829bb11cb7029a38255da"
+                "reference": "b18640f8803a060d46ac37937a7b912c35bed55e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CupOfTea696/Slice-Core/zipball/ac9d3914444dd40be5e829bb11cb7029a38255da",
-                "reference": "ac9d3914444dd40be5e829bb11cb7029a38255da",
+                "url": "https://api.github.com/repos/CupOfTea696/Slice-Core/zipball/b18640f8803a060d46ac37937a7b912c35bed55e",
+                "reference": "b18640f8803a060d46ac37937a7b912c35bed55e",
                 "shasum": ""
             },
             "require": {
                 "cupoftea/package": "^1.3",
                 "illuminate/config": "^5.7",
-                "illuminate/cookie": "^5.7",
                 "illuminate/routing": "^5.7",
                 "illuminate/view": "^5.7",
                 "symfony/var-dumper": "^4.1"
@@ -89,7 +88,7 @@
                 "standalone",
                 "templating"
             ],
-            "time": "2018-10-12T13:50:31+00:00"
+            "time": "2018-10-13T09:59:34+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -344,52 +343,6 @@
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
             "time": "2018-10-08T13:34:14+00:00"
-        },
-        {
-            "name": "illuminate/cookie",
-            "version": "v5.7.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/illuminate/cookie.git",
-                "reference": "c43e774a582a47ef4d6551af0065f876005a3921"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/cookie/zipball/c43e774a582a47ef4d6551af0065f876005a3921",
-                "reference": "c43e774a582a47ef4d6551af0065f876005a3921",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/contracts": "5.7.*",
-                "illuminate/support": "5.7.*",
-                "php": "^7.1.3",
-                "symfony/http-foundation": "^4.1",
-                "symfony/http-kernel": "^4.1"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.7-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Illuminate\\Cookie\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "The Illuminate Cookie package.",
-            "homepage": "https://laravel.com",
-            "time": "2018-10-06T18:48:42+00:00"
         },
         {
             "name": "illuminate/events",

@@ -17,7 +17,7 @@
             </p>
             <pre class="lang-bash command-line" data-prompt="$">
                 <code>
-                    composer create-project cupoftea/slice "Your App Path"
+                    composer create-project -s dev cupoftea/slice "Your App Path"
                 </code>
             </pre>
         </section>
